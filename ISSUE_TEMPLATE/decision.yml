@@ -1,0 +1,20 @@
+name: Decision needed
+description: A question an owner must decide, deferred until then.
+title: "Decide: "
+labels: [needs-decision]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: The question
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: Options
+      description: Each option, what it costs, and a recommendation if there is one.
+  - type: textarea
+    id: blocks
+    attributes:
+      label: What it blocks

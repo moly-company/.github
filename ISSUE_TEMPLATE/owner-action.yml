@@ -1,0 +1,19 @@
+name: Owner action
+description: Something only an owner can do (a console, a device, a signing key).
+title: "Owner action: "
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: Exact steps
+      description: The EXACT thing needed — the value to paste, the console setting, the command, the device. Never "needs setup".
+    validations:
+      required: true
+  - type: textarea
+    id: check
+    attributes:
+      label: How to check it worked
+  - type: textarea
+    id: blocks
+    attributes:
+      label: What it blocks

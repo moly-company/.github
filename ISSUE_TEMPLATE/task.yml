@@ -1,0 +1,15 @@
+name: Task
+description: A piece of work for the board.
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What
+      description: What needs doing, and why. English only.
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+      description: How anyone can check it is finished.
